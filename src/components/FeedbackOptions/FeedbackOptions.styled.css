@@ -1,0 +1,26 @@
+.buttonSection{
+    width: 200px;
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-right: 150px;
+   }
+   
+   .button{
+       border-radius: 5px;
+       background-color: #e4e2df;
+       padding: 5px;
+       width: 70px;
+       border-color: #e4e2df;
+       box-shadow: 1px 1px 3px;
+       font-size: initial;
+
+   }
+   .button::first-letter {
+    text-transform: uppercase;
+  }
+
+   .button:hover{
+    background-color: #3578e5;
+    border-color: #3578e5;
+   }

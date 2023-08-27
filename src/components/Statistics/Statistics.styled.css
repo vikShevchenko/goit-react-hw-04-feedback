@@ -1,0 +1,25 @@
+.ulSection {
+    list-style: none;
+    margin-right: 50px;
+    padding: 0px;
+}
+.lastElem{
+    font-size: xx-large;
+}
+
+.lastElem:nth-child(5)::after{
+    content: "%";}
+
+.lastElem:nth-child(5){
+    display: flex;
+}
+
+.lastElem::first-letter {
+    text-transform: uppercase;
+    
+  }
+h4{
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+ 
